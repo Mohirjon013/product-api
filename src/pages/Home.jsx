@@ -61,6 +61,7 @@ function HOme() {
       <div className="mb-5 space-x-4">
         <Input onChange={handleProductsSearch} size='large' allowClear className='w-[350px]' name='searching' placeholder='Search Product' autoComplete='off'/>
         <Select 
+          allowClear
           className='w-[300px]'
           size='large'
           showSearch
